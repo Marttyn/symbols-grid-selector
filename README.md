@@ -5,7 +5,7 @@ Example dev setup (boilerplate) to use [DOMQL](https://github.com/domql/domql). 
 
 1. Clone the repo
 ```
-git clone git@github.com:symbo-ls/starter-kit.git
+git clone git@github.com:Marttyn/symbols-grid-selector.git
 ```
 
 2. Install scripts
