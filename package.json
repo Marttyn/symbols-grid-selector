@@ -1,12 +1,14 @@
 {
-  "name": "@symbo.ls/starter-kit",
-  "version": "1.0.0",
+  "name": "@marttyn/symbols-starter-kit",
+  "version": "1.0.1",
   "description": "Example dev setup to use Symbols",
-  "author": "symbo.ls",
-  "private": true,
-  "repository": "https://github.com/symbo-ls/starter-kit",
+  "author": "Rafael Oliveira",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marttyn/symbols-grid-selector.git"
+  },
   "bin": {
-    "grid-selector": "./index.js"
+    "grid-selector": "index.js"
   },
   "type": "module",
   "scripts": {

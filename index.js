@@ -14,7 +14,7 @@ program
         console.log('Running yarn start...');
 
         // Execute `yarn start`
-        const childProcess = exec(`cross-env ROWS=${options.rows} COLS=${options.columns} yarn start`, (error, stdout, stderr) => {
+        const childProcess = exec(`cross-env ROWS=${options.rows} COLS=${options.columns} parcel index.html`, (error, stdout, stderr) => {
             if (error) {
                 console.error(`Error: ${error.message}`);
                 return;

@@ -15,5 +15,9 @@ yarn
 
 3. Run the project
 ```
-yarn start
+grid-selector init
+```
+Or
+```
+grid-selector init --rows=<number> --columns=<number>
 ```
