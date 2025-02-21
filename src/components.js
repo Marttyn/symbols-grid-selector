@@ -1,6 +1,6 @@
 'use strict'
 
-import { Flex, Link } from 'smbls'
+import { Flex } from 'smbls'
 
 export const Footer = {
   props: {
@@ -80,8 +80,8 @@ export const GridSelector = {
     },
 
     state: {
-      number_of_rows: 16,
-      number_of_cols: 8,
+      number_of_rows: parseInt(process.env.ROWS),
+      number_of_cols: parseInt(process.env.COLS),
       selected: [-1, -1]
     },
 

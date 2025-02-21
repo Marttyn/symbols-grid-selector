@@ -5,11 +5,17 @@
   "author": "symbo.ls",
   "private": true,
   "repository": "https://github.com/symbo-ls/starter-kit",
+  "bin": {
+    "grid-selector": "./index.js"
+  },
+  "type": "module",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html"
   },
   "dependencies": {
+    "commander": "^13.1.0",
+    "cross-env": "^7.0.3",
     "smbls": "latest"
   },
   "devDependencies": {

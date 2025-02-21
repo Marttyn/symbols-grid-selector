@@ -6,8 +6,6 @@ import designSystem from './designSystem'
 import * as components from './components'
 import pages from './pages'
 
-console.log('npm variables', process.env)
-
 create({
   extend: Flex,
 
