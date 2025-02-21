@@ -6,6 +6,8 @@ import designSystem from './designSystem'
 import * as components from './components'
 import pages from './pages'
 
+console.log('npm variables', process.env)
+
 create({
   extend: Flex,
 
@@ -13,14 +15,12 @@ create({
     theme: 'document',
     flow: 'column',
     height: '100vh',
-    align: 'center space-between'
+    align: 'center space-between',
+    justifyContent: 'center',
+    fontFamily: 'Europa'
   },
 
-  Header: {},
-
-  content: {},
-
-  Footer: { text: 'Footer' }
+  content: {}
 }, {
   designSystem,
   components,
